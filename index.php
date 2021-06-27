@@ -15,6 +15,8 @@ echo "<br><br>";
     write a sum function that takes an array of numbers and returns the sum of these numbers
 */
 $addnum = array(2, 4, 6, 8);
+print_r ($addnum);
+echo "<br>";
 echo "The Sum of the Array Numbers are: " . array_sum($addnum);
 
 ?>
